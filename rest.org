@@ -1,0 +1,33 @@
+GET http://localhost:3001/api/persons/
+
+# 404
+DELETE http://localhost:3001/api/persons/42332
+
+# OK
+DELETE http://localhost:3001/api/persons/1
+
+# Add
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Adfwd m2e3rd",
+  "number": "423-2-2332"
+}
+#
+
+
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Add me2"
+}
+
+# 
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "number": "Add me2"
+}
