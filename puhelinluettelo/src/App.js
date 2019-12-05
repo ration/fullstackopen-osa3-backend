@@ -13,7 +13,6 @@ const Person = (props) => {
     );
 };
 
-
 const Persons = (props) => {
     const matchesFilter = (person) => {
         return !props.filter || person.name.toLowerCase().includes(props.filter.toLowerCase());
