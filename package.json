@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
       "watch": "nodemon index.js",
-      "deploy": "eb deploy fullstackopen-osa3-front"
+      "deploy": "eb deploy Fullstackopen-env"
   },
   "author": "Tatu Lahtela",
   "license": "ISC",
